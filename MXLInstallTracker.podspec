@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.platform	 		  = :ios
   s.ios.deployment_target = "6.0"
-  
+
   s.name         = "MXLInstallTracker"
   s.version      = "1.0.0"
   s.summary      = "Track installs on the major ad networks."
@@ -14,11 +14,11 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "Kiran Panesar" => "kiran@mobilexlabs.com" }
   s.source       = { :git => "https://github.com/KiranPanesar/MXLInstallTracker.git", :tag => "1.0.0" }
-  s.source_files = "MXLInstallTracker", "MXLInstallTracker/**/*.{h,m}"
+  s.source_files = "Classes", "MXLInstallTracker/**/*.{h,m}"
   s.requires_arc = true
   s.framework	 = "AdSupport"
 
-  s.dependency "MobileAppTracker", "~> 3.2"
-  s.dependency "GA-iOS-SDK-new", "~> 1.0"
+  s.dependency "MobileAppTracker"
+  s.dependency "GA-iOS-SDK"
 
 end
