@@ -13,8 +13,6 @@
 #import <AdSupport/AdSupport.h>
 #import "ACTReporter.h"
 
-#import "PDKeychainBindings.h"
-
 @interface MXLInstallTracker ()
 
 @property (strong, nonatomic, readwrite) NSString *apiKey;
