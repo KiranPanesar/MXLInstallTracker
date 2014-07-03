@@ -1,8 +1,7 @@
 //
-//  MXLAnalyticsManager.m
-//  Instalikes
+//  MXLInstallTracker
 //
-//  Created by Kiran Panesar on 25/04/2014.
+//  Created by Kiran Panesar on 02/07/2014.
 //  Copyright (c) 2014 MobileX Labs. All rights reserved.
 //
 

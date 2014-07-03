@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   					At MobileX Labs we had the issue of wanting robust install tracking and attribution for our apps. This pod will allow you to attribute installs on all major platform with only one line of code.
                    DESC
 
-  s.homepage     = "http://EXAMPLE/MXLInstallTracker"
+  s.homepage     = "https://github.com/KiranPanesar/MXLInstallTracker"
   s.license      = "MIT"
   s.author       = { "Kiran Panesar" => "kiran@mobilexlabs.com" }
   s.source       = { :git => "https://github.com/KiranPanesar/MXLInstallTracker.git", :tag => "1.0.0" }
