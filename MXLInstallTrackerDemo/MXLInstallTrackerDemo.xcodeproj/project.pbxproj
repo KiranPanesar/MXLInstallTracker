@@ -21,6 +21,8 @@
 		9F44CE181965E5FA00038B8A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F44CDFA1965E5FA00038B8A /* UIKit.framework */; };
 		9F44CE201965E5FA00038B8A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F44CE1E1965E5FA00038B8A /* InfoPlist.strings */; };
 		9F44CE221965E5FA00038B8A /* MXLInstallTrackerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F44CE211965E5FA00038B8A /* MXLInstallTrackerDemoTests.m */; };
+		9F44CE2E1965E97E00038B8A /* MXLInstallTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F44CE2D1965E97E00038B8A /* MXLInstallTracker.m */; };
+		9F44CE361965EB0200038B8A /* libGoogleConversionTracking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F44CE351965EB0200038B8A /* libGoogleConversionTracking.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,12 @@
 		9F44CE1D1965E5FA00038B8A /* MXLInstallTrackerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MXLInstallTrackerDemoTests-Info.plist"; sourceTree = "<group>"; };
 		9F44CE1F1965E5FA00038B8A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9F44CE211965E5FA00038B8A /* MXLInstallTrackerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXLInstallTrackerDemoTests.m; sourceTree = "<group>"; };
+		9F44CE2C1965E97E00038B8A /* MXLInstallTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXLInstallTracker.h; sourceTree = "<group>"; };
+		9F44CE2D1965E97E00038B8A /* MXLInstallTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXLInstallTracker.m; sourceTree = "<group>"; };
+		9F44CE301965EB0200038B8A /* ACTReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACTReporter.h; sourceTree = "<group>"; };
+		9F44CE321965EB0200038B8A /* GoogleConversionPing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleConversionPing.h; sourceTree = "<group>"; };
+		9F44CE341965EB0200038B8A /* DCTReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTReporter.h; sourceTree = "<group>"; };
+		9F44CE351965EB0200038B8A /* libGoogleConversionTracking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleConversionTracking.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F44CDF91965E5FA00038B8A /* CoreGraphics.framework in Frameworks */,
+				9F44CE361965EB0200038B8A /* libGoogleConversionTracking.a in Frameworks */,
 				9F44CDFB1965E5FA00038B8A /* UIKit.framework in Frameworks */,
 				9F44CDF71965E5FA00038B8A /* Foundation.framework in Frameworks */,
 			);
@@ -126,6 +135,7 @@
 		9F44CDFD1965E5FA00038B8A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9F44CE2B1965E97E00038B8A /* MXLInstallTracker */,
 				9F44CDFE1965E5FA00038B8A /* MXLInstallTrackerDemo-Info.plist */,
 				9F44CDFF1965E5FA00038B8A /* InfoPlist.strings */,
 				9F44CE021965E5FA00038B8A /* main.m */,
@@ -150,6 +160,44 @@
 				9F44CE1E1965E5FA00038B8A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F44CE2B1965E97E00038B8A /* MXLInstallTracker */ = {
+			isa = PBXGroup;
+			children = (
+				9F44CE2F1965EB0200038B8A /* GoogleAdwords */,
+				9F44CE2C1965E97E00038B8A /* MXLInstallTracker.h */,
+				9F44CE2D1965E97E00038B8A /* MXLInstallTracker.m */,
+			);
+			name = MXLInstallTracker;
+			path = ../../MXLInstallTracker;
+			sourceTree = "<group>";
+		};
+		9F44CE2F1965EB0200038B8A /* GoogleAdwords */ = {
+			isa = PBXGroup;
+			children = (
+				9F44CE301965EB0200038B8A /* ACTReporter.h */,
+				9F44CE311965EB0200038B8A /* Deprecated */,
+				9F44CE331965EB0200038B8A /* DoubleClick */,
+				9F44CE351965EB0200038B8A /* libGoogleConversionTracking.a */,
+			);
+			path = GoogleAdwords;
+			sourceTree = "<group>";
+		};
+		9F44CE311965EB0200038B8A /* Deprecated */ = {
+			isa = PBXGroup;
+			children = (
+				9F44CE321965EB0200038B8A /* GoogleConversionPing.h */,
+			);
+			path = Deprecated;
+			sourceTree = "<group>";
+		};
+		9F44CE331965EB0200038B8A /* DoubleClick */ = {
+			isa = PBXGroup;
+			children = (
+				9F44CE341965EB0200038B8A /* DCTReporter.h */,
+			);
+			path = DoubleClick;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +300,7 @@
 			files = (
 				9F44CE071965E5FA00038B8A /* MXLAppDelegate.m in Sources */,
 				9F44CE031965E5FA00038B8A /* main.m in Sources */,
+				9F44CE2E1965E97E00038B8A /* MXLInstallTracker.m in Sources */,
 				9F44CE0D1965E5FA00038B8A /* MXLViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,6 +429,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MXLInstallTrackerDemo/MXLInstallTrackerDemo-Prefix.pch";
 				INFOPLIST_FILE = "MXLInstallTrackerDemo/MXLInstallTrackerDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/kiran/Developer/iOS/Frameworks/MXLInstallTracker/MXLInstallTracker/GoogleAdwords,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,6 +446,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MXLInstallTrackerDemo/MXLInstallTrackerDemo-Prefix.pch";
 				INFOPLIST_FILE = "MXLInstallTrackerDemo/MXLInstallTrackerDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/kiran/Developer/iOS/Frameworks/MXLInstallTracker/MXLInstallTracker/GoogleAdwords,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -457,6 +514,7 @@
 				9F44CE271965E5FA00038B8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F44CE281965E5FA00038B8A /* Build configuration list for PBXNativeTarget "MXLInstallTrackerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +523,7 @@
 				9F44CE2A1965E5FA00038B8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
