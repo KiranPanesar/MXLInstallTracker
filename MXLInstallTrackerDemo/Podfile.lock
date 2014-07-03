@@ -1,0 +1,15 @@
+PODS:
+  - GA-iOS-SDK (0.4.0):
+    - GA-iOS-SDK/no-arc
+  - GA-iOS-SDK/no-arc (0.4.0)
+  - MobileAppTracker (3.2.5)
+
+DEPENDENCIES:
+  - GA-iOS-SDK
+  - MobileAppTracker
+
+SPEC CHECKSUMS:
+  GA-iOS-SDK: 6dc9c68ff21f09c2088601185b2c9073cfc4d9f1
+  MobileAppTracker: b9d952dcb44a52b60b338f331b1d4dee76c93b51
+
+COCOAPODS: 0.33.1
