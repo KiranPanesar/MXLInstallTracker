@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F44CDF71965E5FA00038B8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F44CDF61965E5FA00038B8A /* Foundation.framework */; };
+		9F44CDF91965E5FA00038B8A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F44CDF81965E5FA00038B8A /* CoreGraphics.framework */; };
+		9F44CDFB1965E5FA00038B8A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F44CDFA1965E5FA00038B8A /* UIKit.framework */; };
+		9F44CE011965E5FA00038B8A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F44CDFF1965E5FA00038B8A /* InfoPlist.strings */; };
+		9F44CE031965E5FA00038B8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F44CE021965E5FA00038B8A /* main.m */; };
+		9F44CE071965E5FA00038B8A /* MXLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F44CE061965E5FA00038B8A /* MXLAppDelegate.m */; };
+		9F44CE0A1965E5FA00038B8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F44CE081965E5FA00038B8A /* Main.storyboard */; };
+		9F44CE0D1965E5FA00038B8A /* MXLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F44CE0C1965E5FA00038B8A /* MXLViewController.m */; };
+		9F44CE0F1965E5FA00038B8A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F44CE0E1965E5FA00038B8A /* Images.xcassets */; };
+		9F44CE161965E5FA00038B8A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F44CE151965E5FA00038B8A /* XCTest.framework */; };
+		9F44CE171965E5FA00038B8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F44CDF61965E5FA00038B8A /* Foundation.framework */; };
+		9F44CE181965E5FA00038B8A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F44CDFA1965E5FA00038B8A /* UIKit.framework */; };
+		9F44CE201965E5FA00038B8A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F44CE1E1965E5FA00038B8A /* InfoPlist.strings */; };
+		9F44CE221965E5FA00038B8A /* MXLInstallTrackerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F44CE211965E5FA00038B8A /* MXLInstallTrackerDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F44CE191965E5FA00038B8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F44CDEB1965E5FA00038B8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F44CDF21965E5FA00038B8A;
+			remoteInfo = MXLInstallTrackerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F44CDF31965E5FA00038B8A /* MXLInstallTrackerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXLInstallTrackerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F44CDF61965E5FA00038B8A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9F44CDF81965E5FA00038B8A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9F44CDFA1965E5FA00038B8A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9F44CDFE1965E5FA00038B8A /* MXLInstallTrackerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MXLInstallTrackerDemo-Info.plist"; sourceTree = "<group>"; };
+		9F44CE001965E5FA00038B8A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F44CE021965E5FA00038B8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F44CE041965E5FA00038B8A /* MXLInstallTrackerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MXLInstallTrackerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		9F44CE051965E5FA00038B8A /* MXLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXLAppDelegate.h; sourceTree = "<group>"; };
+		9F44CE061965E5FA00038B8A /* MXLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXLAppDelegate.m; sourceTree = "<group>"; };
+		9F44CE091965E5FA00038B8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F44CE0B1965E5FA00038B8A /* MXLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXLViewController.h; sourceTree = "<group>"; };
+		9F44CE0C1965E5FA00038B8A /* MXLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXLViewController.m; sourceTree = "<group>"; };
+		9F44CE0E1965E5FA00038B8A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9F44CE141965E5FA00038B8A /* MXLInstallTrackerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MXLInstallTrackerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F44CE151965E5FA00038B8A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9F44CE1D1965E5FA00038B8A /* MXLInstallTrackerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MXLInstallTrackerDemoTests-Info.plist"; sourceTree = "<group>"; };
+		9F44CE1F1965E5FA00038B8A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F44CE211965E5FA00038B8A /* MXLInstallTrackerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXLInstallTrackerDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F44CDF01965E5FA00038B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F44CDF91965E5FA00038B8A /* CoreGraphics.framework in Frameworks */,
+				9F44CDFB1965E5FA00038B8A /* UIKit.framework in Frameworks */,
+				9F44CDF71965E5FA00038B8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F44CE111965E5FA00038B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F44CE161965E5FA00038B8A /* XCTest.framework in Frameworks */,
+				9F44CE181965E5FA00038B8A /* UIKit.framework in Frameworks */,
+				9F44CE171965E5FA00038B8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F44CDEA1965E5FA00038B8A = {
+			isa = PBXGroup;
+			children = (
+				9F44CDFC1965E5FA00038B8A /* MXLInstallTrackerDemo */,
+				9F44CE1B1965E5FA00038B8A /* MXLInstallTrackerDemoTests */,
+				9F44CDF51965E5FA00038B8A /* Frameworks */,
+				9F44CDF41965E5FA00038B8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F44CDF41965E5FA00038B8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F44CDF31965E5FA00038B8A /* MXLInstallTrackerDemo.app */,
+				9F44CE141965E5FA00038B8A /* MXLInstallTrackerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F44CDF51965E5FA00038B8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F44CDF61965E5FA00038B8A /* Foundation.framework */,
+				9F44CDF81965E5FA00038B8A /* CoreGraphics.framework */,
+				9F44CDFA1965E5FA00038B8A /* UIKit.framework */,
+				9F44CE151965E5FA00038B8A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F44CDFC1965E5FA00038B8A /* MXLInstallTrackerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9F44CE051965E5FA00038B8A /* MXLAppDelegate.h */,
+				9F44CE061965E5FA00038B8A /* MXLAppDelegate.m */,
+				9F44CE081965E5FA00038B8A /* Main.storyboard */,
+				9F44CE0B1965E5FA00038B8A /* MXLViewController.h */,
+				9F44CE0C1965E5FA00038B8A /* MXLViewController.m */,
+				9F44CE0E1965E5FA00038B8A /* Images.xcassets */,
+				9F44CDFD1965E5FA00038B8A /* Supporting Files */,
+			);
+			path = MXLInstallTrackerDemo;
+			sourceTree = "<group>";
+		};
+		9F44CDFD1965E5FA00038B8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F44CDFE1965E5FA00038B8A /* MXLInstallTrackerDemo-Info.plist */,
+				9F44CDFF1965E5FA00038B8A /* InfoPlist.strings */,
+				9F44CE021965E5FA00038B8A /* main.m */,
+				9F44CE041965E5FA00038B8A /* MXLInstallTrackerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F44CE1B1965E5FA00038B8A /* MXLInstallTrackerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F44CE211965E5FA00038B8A /* MXLInstallTrackerDemoTests.m */,
+				9F44CE1C1965E5FA00038B8A /* Supporting Files */,
+			);
+			path = MXLInstallTrackerDemoTests;
+			sourceTree = "<group>";
+		};
+		9F44CE1C1965E5FA00038B8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F44CE1D1965E5FA00038B8A /* MXLInstallTrackerDemoTests-Info.plist */,
+				9F44CE1E1965E5FA00038B8A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F44CDF21965E5FA00038B8A /* MXLInstallTrackerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F44CE251965E5FA00038B8A /* Build configuration list for PBXNativeTarget "MXLInstallTrackerDemo" */;
+			buildPhases = (
+				9F44CDEF1965E5FA00038B8A /* Sources */,
+				9F44CDF01965E5FA00038B8A /* Frameworks */,
+				9F44CDF11965E5FA00038B8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MXLInstallTrackerDemo;
+			productName = MXLInstallTrackerDemo;
+			productReference = 9F44CDF31965E5FA00038B8A /* MXLInstallTrackerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F44CE131965E5FA00038B8A /* MXLInstallTrackerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F44CE281965E5FA00038B8A /* Build configuration list for PBXNativeTarget "MXLInstallTrackerDemoTests" */;
+			buildPhases = (
+				9F44CE101965E5FA00038B8A /* Sources */,
+				9F44CE111965E5FA00038B8A /* Frameworks */,
+				9F44CE121965E5FA00038B8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F44CE1A1965E5FA00038B8A /* PBXTargetDependency */,
+			);
+			name = MXLInstallTrackerDemoTests;
+			productName = MXLInstallTrackerDemoTests;
+			productReference = 9F44CE141965E5FA00038B8A /* MXLInstallTrackerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F44CDEB1965E5FA00038B8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MXL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "MobileX Labs";
+				TargetAttributes = {
+					9F44CE131965E5FA00038B8A = {
+						TestTargetID = 9F44CDF21965E5FA00038B8A;
+					};
+				};
+			};
+			buildConfigurationList = 9F44CDEE1965E5FA00038B8A /* Build configuration list for PBXProject "MXLInstallTrackerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F44CDEA1965E5FA00038B8A;
+			productRefGroup = 9F44CDF41965E5FA00038B8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F44CDF21965E5FA00038B8A /* MXLInstallTrackerDemo */,
+				9F44CE131965E5FA00038B8A /* MXLInstallTrackerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F44CDF11965E5FA00038B8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F44CE0F1965E5FA00038B8A /* Images.xcassets in Resources */,
+				9F44CE011965E5FA00038B8A /* InfoPlist.strings in Resources */,
+				9F44CE0A1965E5FA00038B8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F44CE121965E5FA00038B8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F44CE201965E5FA00038B8A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F44CDEF1965E5FA00038B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F44CE071965E5FA00038B8A /* MXLAppDelegate.m in Sources */,
+				9F44CE031965E5FA00038B8A /* main.m in Sources */,
+				9F44CE0D1965E5FA00038B8A /* MXLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F44CE101965E5FA00038B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F44CE221965E5FA00038B8A /* MXLInstallTrackerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F44CE1A1965E5FA00038B8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F44CDF21965E5FA00038B8A /* MXLInstallTrackerDemo */;
+			targetProxy = 9F44CE191965E5FA00038B8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F44CDFF1965E5FA00038B8A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F44CE001965E5FA00038B8A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9F44CE081965E5FA00038B8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F44CE091965E5FA00038B8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F44CE1E1965E5FA00038B8A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F44CE1F1965E5FA00038B8A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F44CE231965E5FA00038B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9F44CE241965E5FA00038B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F44CE261965E5FA00038B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MXLInstallTrackerDemo/MXLInstallTrackerDemo-Prefix.pch";
+				INFOPLIST_FILE = "MXLInstallTrackerDemo/MXLInstallTrackerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9F44CE271965E5FA00038B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MXLInstallTrackerDemo/MXLInstallTrackerDemo-Prefix.pch";
+				INFOPLIST_FILE = "MXLInstallTrackerDemo/MXLInstallTrackerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9F44CE291965E5FA00038B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MXLInstallTrackerDemo.app/MXLInstallTrackerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MXLInstallTrackerDemo/MXLInstallTrackerDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MXLInstallTrackerDemoTests/MXLInstallTrackerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9F44CE2A1965E5FA00038B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MXLInstallTrackerDemo.app/MXLInstallTrackerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MXLInstallTrackerDemo/MXLInstallTrackerDemo-Prefix.pch";
+				INFOPLIST_FILE = "MXLInstallTrackerDemoTests/MXLInstallTrackerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F44CDEE1965E5FA00038B8A /* Build configuration list for PBXProject "MXLInstallTrackerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F44CE231965E5FA00038B8A /* Debug */,
+				9F44CE241965E5FA00038B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F44CE251965E5FA00038B8A /* Build configuration list for PBXNativeTarget "MXLInstallTrackerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F44CE261965E5FA00038B8A /* Debug */,
+				9F44CE271965E5FA00038B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F44CE281965E5FA00038B8A /* Build configuration list for PBXNativeTarget "MXLInstallTrackerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F44CE291965E5FA00038B8A /* Debug */,
+				9F44CE2A1965E5FA00038B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F44CDEB1965E5FA00038B8A /* Project object */;
+}
