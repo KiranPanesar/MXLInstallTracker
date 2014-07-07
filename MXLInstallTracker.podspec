@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
   s.author       = { "Kiran Panesar" => "kiran@mobilexlabs.com" }
   s.source       = { :git => "https://github.com/KiranPanesar/MXLInstallTracker.git", :tag => "1.0.0" }
   s.source_files = "Classes", "MXLInstallTracker/**/*.{h,m}"
+  s.vendored_libraries = "MXLInstallTracker/**/*.a"
   s.requires_arc = true
   s.framework	 = "AdSupport"
 
