@@ -43,9 +43,9 @@
     _adwordsConversionID = awConversion;
     _adwordsLabel        = awLabel;
     
-    [GameAnalytics setGameKey:_apiKey
-                    secretKey:_apiSecret
-                        build:_build];
+    [GameAnalytics initializeWithGameKey:_apiKey
+                               secretKey:_apiSecret
+                                   build:_build];
     
     [GameAnalytics updateSessionID];
     
