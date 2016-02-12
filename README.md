@@ -5,7 +5,7 @@ This is a small framework to make install attribution easy. At MobileX Labs we f
 
 Installation
 -----
-MXLInstallTracker is now available via Cocoapods!
+MXLInstallTracker is now available via CocoaPods!
 
 ```
 pod 'MXLInstallTracker', '~> 1.0.0'
